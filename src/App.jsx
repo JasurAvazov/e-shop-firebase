@@ -1,13 +1,19 @@
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import Profile from "./pages/Profile"
+
 import "./App.scss"
-import { Button } from "@mui/material"
+import Header from "./components/Header"
 
 function App() {
   return (
-    <div className="App">
-      <Button color="success" variant="outlined">
-        Hello
-      </Button>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </>
   )
 }
 
