@@ -8,13 +8,13 @@ import './App.scss';
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/profile" element={<ProfilePage/>}/>
       </Routes>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
