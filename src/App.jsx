@@ -4,7 +4,9 @@ import { Button } from "@mui/material"
 function App() {
   return (
     <div className="App">
-      <Button color="success">Hello</Button>
+      <Button color="success" variant="outlined">
+        Hello
+      </Button>
     </div>
   )
 }
