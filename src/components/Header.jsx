@@ -5,8 +5,8 @@ import React from "react"
 const Header = () => {
   return (
     <header>
-      <Link to="/">Home1</Link>
-      <Link to="/profile">Profile2</Link>
+      <Link to="/">Home</Link>
+      <Link to="/profile">Profile</Link>
     </header>
   )
 }
